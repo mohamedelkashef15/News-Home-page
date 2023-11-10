@@ -66,18 +66,18 @@ a {
 
 /* Header End */
 /* Section 1 Start */
-#section-1 .row {
+#section .row-1 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding: 1rem 0;
   column-gap: 2rem;
 }
 
-#section-1 .row img {
+#section .row-1 img {
   width: 100%;
 }
 
-#section-1 .row .article-content {
+#section .row-1 .article-content {
   padding: 20px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -85,7 +85,7 @@ a {
   margin-top: 20px;
 }
 
-#section-1 .row .article-content h1 {
+#section .row-1 .article-content h1 {
   font-size: 55px;
   line-height: 1.1;
   font-weight: 800;
@@ -93,12 +93,12 @@ a {
   color: var(--very-dark-blue);
 }
 
-#section-1 .row .article-content p,
-#section-1 .row .col p {
+#section .row-1 .article-content p,
+#section .row-2 .col p {
   color: var(--dark-grayish-blue);
 }
 
-#section-1 .row .article-content .btn {
+#section .row-1 .article-content .btn {
   display: inline-block;
   background-color: var(--soft-red);
   color: var(--off-white);
@@ -111,71 +111,72 @@ a {
   transition: all 0.3s ease;
 }
 
-#section-1 .row .article-content .btn:hover {
+#section .row-1 .article-content .btn:hover {
   background-color: var(--very-dark-blue);
   color: #fff;
 }
 
-#section-1 .row aside {
+#section .row-1 aside {
   background-color: var(--very-dark-blue);
   padding: 25px;
 }
 
-#section-1 .row aside h2 {
+#section .row-1 aside h2 {
   color: var(--soft-orange);
   font-size: 40px;
 }
 
-#section-1 .row aside div {
+#section .row-1 aside div {
   padding: 20px 0 30px;
 }
 
-#section-1 .row aside div:not(:last-child) {
+#section .row-1 aside div:not(:last-child) {
   border-bottom: 1px solid var(--dark-grayish-blue);
 }
 
-#section-1 .row aside a {
+#section .row-1 aside a {
   display: inline-block;
   font-weight: 700;
   font-size: 18px;
   color: var(--off-white);
   margin: 20px 0 10px;
+  transition: all 0.3s ease;
 }
 
-#section-1 .row aside a:hover {
+#section .row-1 aside a:hover {
   color: var(--soft-orange);
 }
 
-#section-1 .row aside p {
+#section .row-1 aside p {
   color: var(--grayish-blue);
 }
 
 /* Row 2 */
-#section-2 .row {
+#section .row-2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
   padding: 3rem 0;
 }
 
-#section-2 .row .col {
+#section .row-2 .col {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#section-2 .row .col img {
+#section .row-2 .col img {
   max-width: 100px;
   margin-right: 20px;
 }
 
-#section-2 .row .col .number {
+#section .row-2 .col .number {
   font-size: 30px;
   font-weight: 800;
   color: var(--grayish-blue);
 }
 
-#section-2 .row .col a {
+#section .row-2 .col a {
   display: inline-block;
   font-size: 16px;
   color: var(--very-dark-blue);
@@ -183,7 +184,7 @@ a {
   margin: 5px 0 10px;
 }
 
-#section-2 .row .col a:hover {
+#section .row-2 .col a:hover {
   color: var(--soft-red);
 }
 
