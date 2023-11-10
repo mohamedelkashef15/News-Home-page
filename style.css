@@ -40,10 +40,6 @@ a {
 }
 
 /* Header Start */
-#header {
-  background: var(--off-white);
-}
-
 #header .navbar {
   display: flex;
   justify-content: space-between;
